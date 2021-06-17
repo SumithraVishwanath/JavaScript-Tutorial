@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Dialog Boxes- Confirm</title>
+    </head>
+    <body>
+        <script>
+            function demo(){
+
+            const retval = confirm(` Are you sure?? `)
+            if (retval == true) {
+                alert(`Click on OK to Confirm`);
+            }
+            else{
+                alert(`Click on OK to Cancel`)
+            }
+
+        }
+        </script>
+        <input type="button" onclick="demo()" value="Click Me" />
+    </body>
+</html>
