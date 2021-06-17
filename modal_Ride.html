@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Roller Coaster</title>   
+    </head>
+    <body>
+        <script>
+            function Ride(){
+            var age = prompt(`Enter your age`, `Anonymous`)
+            if(age >= 18){
+               var opinion = confirm(`Are you interested for a Ride`)
+               if(opinion){
+                   alert(` You are Eligible for the Ride `)
+               }
+               else{
+                alert(` You are not Eligible for the Ride `)
+               }
+            }
+            else{
+                alert(` Since You are below 18 You not Eligible for the Ride `)
+               }
+            }
+        </script>
+        <input type="button" onclick="Ride()" value="Roller Coaster Ride" />
+    </body>
+</html>
