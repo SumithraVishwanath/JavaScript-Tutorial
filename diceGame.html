@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Dice Game</title>
+    </head>
+    <body>
+        <script>
+            function Dice(){
+            var numberOfChoices = 12;
+            var firstValue = 1;
+            var randomNumber = Math.floor(Math.random() * numberOfChoices + firstValue)
+            document.write(`Dice of Your Turn is ${randomNumber}`);
+            }
+        </script>
+         <input type="button" onclick="Dice()" value="Click Me" />
+    </body>
+</html>
+
+
+
+
